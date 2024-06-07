@@ -4,8 +4,6 @@ import NotFound from "../pages/NotFound";
 import Search from "../users/Search";
 import User from "../users/User";
 import { Route, Switch } from "react-router-dom";
-
-
 const Home = () => {
   return (
     <div className="container">
