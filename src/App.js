@@ -25,10 +25,8 @@ function App() {
     setIcon(!isDarkMode ? faMoon : faSun);
   };
   return (
-    <>
-<div className="App ">
+    <div className="App ">
       <Router>
-
     <div className="App ">
 
         <Navbar />
@@ -43,8 +41,6 @@ function App() {
         </div>
       </Router>
     </div>
-    </>
-    
   );
 }
 export default App;
