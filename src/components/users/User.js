@@ -12,7 +12,7 @@ export const User = () => {
       const response = await get(`users/${username}`);
       setUser(response);
     } catch (error) {
-      console.error("Error fetching data:", error.message);
+        return error;
     }
   };
   const getUserRepos = async (username) => {
@@ -20,7 +20,7 @@ export const User = () => {
       const response = await get(`users/${username}/repos`);
       setRepos(response);
     } catch (error) {
-      console.error("Error fetching data:", error.message);
+        return error;
     }
   };
   useEffect(() => {
