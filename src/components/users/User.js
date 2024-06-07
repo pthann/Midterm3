@@ -83,7 +83,7 @@ export const User = () => {
             <li>
               {login && (
                 <Fragment>
-                  <strong>Username: </strong>
+                  <strong>User name: </strong>
                   {login}
                 </Fragment>
               )}
